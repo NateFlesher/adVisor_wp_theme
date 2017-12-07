@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+.advisor-icon-vc{ background-image:url(../images/advisor-icon-vc.png);}
+.dashicons-screenoptions:before{ color: #09a223 !important; }
+h1.advisor-demo-logo{
+    margin: 0.2em 185px 3px 0px;
+    padding: 0px 4px 20px 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+div.advisor-wp-warning{ margin-bottom: 30px !important; }

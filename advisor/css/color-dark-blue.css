@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+a { color: #002e5a;}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#002e5a;}
+
+.color-default{ color:#002e5a !important;}
+.btn-link { color: #002e5a;}
+#header .main-nav li a:hover, #header .main-nav li.active a{ border-color:#002e5a}
+#header .search-container .search button{ color:#002e5a;}
+#header .search-container .search input[type="text"]:focus{ border-color:#002e5a;}
+.no-touch .cd-slider-nav a:hover {background-color: #002e5a;}
+.cd-slider-nav .cd-marker {background-color: #002e5a;}
+#footer a:hover{ color:#002e5a;}
+.btn-primary { background-color: #002e5a;}
+.owl-dots .owl-dot.active{background-color: #002e5a;}
+.counter span{ color:#002e5a;}
+.service-box, .service-box.two{ border-color:#002e5a;}
+.service-box.three:after{ background:#002e5a;}
+.service-box i{ color:#002e5a;}
+
+.toggle .toggle-heading a i{ color:#002e5a; border-color:#002e5a;}
+.meet-advisors-content h3{ color:#002e5a;}
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor{background-color: #002e5a;}
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a{ background-color:#002e5a;}
+.cd-slider-nav li .slide-number{ background-color:#002e5a;}
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number{ color:#002e5a;}
+#header.header-two .header-contact-widget li i{ color:#002e5a;}
+#header.header-two .header-contact-widget li p a:hover{ color:#002e5a;}
+.breadcrumbs li a:hover{ color:#002e5a;}
+.blog-item .blog-content h3 a:hover{ color:#002e5a;}
+.blog-item .blog-meta li a:hover{color:#002e5a;}
+span.post-sticky , .post-sticky i.fa.fa-star{ color: #002e5a;}
+.categories li a:hover{color:#002e5a;}
+.tags li a:hover {color:#002e5a; border-color:#002e5a;}
+.popular-post h4 a:hover {color:#002e5a;}
+.search {background-color: #002e5a;}
+.search .search-icon:hover i {color:#002e5a;}
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link{border-color:#002e5a;}
+.blog-item-classic .blog-content h3 a:hover{ color:#002e5a;}
+.news-paggination li a:hover{ color:#002e5a;}
+.company-history li .year{ color:#002e5a}
+.company-history li .history-content:before{ background-color:#002e5a}
+.team-member h4{ color:#002e5a}
+.list-bullets li:before{ background:#002e5a;}
+.left-nav li a:hover, .left-nav li a.active{ border-color:#002e5a;}
+.help-widget{ background-color:#002e5a;}
+.product-description h3 a:hover{ color:#002e5a;}
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover{ color:#002e5a;}
+.product-thumb label{ background:#002e5a;}
+.ui-slider-horizontal .ui-slider-range{ background:#002e5a;}
+.top-products .top-products-detail i{ color:#002e5a;}
+.top-products .top-products-detail h4 a:hover{ color:#002e5a;}
+.ratings i{ color:#002e5a;}
+.resp-vtabs li.resp-tab-active{color:#002e5a;}
+.resp-tab-active { background:#002e5a;}
+.cart-total .amount{color:#002e5a;}
+.banner-btn.colored{ background:#002e5a;}
+.map-with-address-widget a:hover{ color:#002e5a;}
+blockquote{ border-color:#002e5a;}
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected{ background:#002e5a;}
+.product-detail-slider .rslides_tabs li.rslides_here a{background:#002e5a}
+.review-form-close:hover{ background:#002e5a;}
+.btn.btn-dark:hover{ background:#002e5a;}
+
+.btn-primary:hover  {background-color: #064784;}
+a:hover, a:focus, .btn-link:hover, .btn-link:focus { color:#064784;}
+
+
+#footer .usefull-links-widget li a:hover{ background-image:url(../images/color-scheme/dark-blue/dot-h.png)}
+aside .testimonial-content{ background-image:url(../images/color-scheme/dark-blue/testimonial-pointer2.png)}
+
+.highlighted-sec li:nth-child(1n+1) .text-box{ background:#002e5a;}
+.highlighted-sec li:nth-child(2n+2) .text-box{ background:#013464;}
+.highlighted-sec li:nth-child(3n+3) .text-box{ background:#02396e;}
+.highlighted-sec li:nth-child(4n+4) .text-box{ background:#02417d;}
+.highlighted-sec li:nth-child(5n+5) .text-box{ background:#034788;}
+.highlighted-sec li:nth-child(6n+6) .text-box{ background:#024d95;}
+
+
+.services.highlighted .owl-item:nth-child(3n+1) .service-box{ background:#002e5a;}
+.services.highlighted .owl-item:nth-child(3n+2) .service-box{ background:#00284d;}
+.services.highlighted .owl-item:nth-child(3n+3) .service-box{ background:#012141;}
+
+
+.cases-item figcaption{ background:rgba(0,46,90,0.80);}
+
+
+#header .top-bar:after, #header .top-bar{ background:#424c55;}
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after{ background:#333c43;}
+
+.testimonial-2 .testimonials-author p{color:#002e5a;}
+#header.header-three .main-nav li a:hover, #header.header-three .main-nav li.active > a{color:#002e5a;}
+.doing-the-right-text span{ color:#424C55;}
+
+.ad-topbar,
+.header-four .ad-btnnav{background: #424C55;}
+.ad-bannercontent h1 em span,
+#header.header-four .main-nav li.active a,
+#header.header-four .main-nav li > a:hover,
+.header-five .ad-navigation ul li.ad-active > a,
+.header-five .ad-navigation ul li a:hover{color:#002e5a;}
+.header-six .btn-quote{border-color: #002e5a; background: #002e5a;}
+
+
+.color_red{
+  color: #002e5a !important;
+}
+.bg_red {
+    background: #002e5a !important;
+}
+.testimonials_box > h4 {
+    color: #002e5a !important;
+}
+.view-caption li.facebook i, .view-caption li.twitter i, .view-caption li.youtube i{
+  color: #002e5a !important;
+}
+.header-six .ad-navigationarea ul li i {
+    color: #002e5a;
+    border-color: #002e5a;
+}
+.footer_link > li > a:hover{
+  color: #002e5a;
+}
+.header-six .ad-navigationarea ul li a.tel{
+      color: #002e5a;
+}
+.social-icons_1 li:hover{
+  background: #002e5a;
+}
+
+
+
+#header-top .cont_office {
+	background: #002e5a;
+}
+@media (min-width: 1024px) {
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+	color: #002e5a;
+  }
+}
+.advisor-header-seven li ul.dropdown-menu li.active a {
+	color: #002e5a;
+}
+.cool-link::after {
+	background: #002e5a;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.active a {
+	color: #002e5a;
+}
+#services_slider .services_section a:hover {
+  color: #002e5a;
+  border-bottom: 1px solid #002e5a;
+}
+#testimonial-slider_2 .owl-controls .owl-page.active span, .owl-controls.clickable .owl-page:hover span {
+    background: #002e5a;
+}
+.feature_3 .feature_box3:hover i {
+	background: #002e5a;
+}
+footer .widget.widget_rss ul li {
+	border: 1px solid #fff;
+	background: #002e5a;
+}
+.widget select, footer select {
+	background: #ffffff;
+	border: 1px solid #002e5a;
+	color : #000;
+}
+.dark table tr th, footer table tr th {
+	background: #002e5a;
+}
+.light table tr th {
+	background: #002e5a;
+}
+#footer .social-icons_1 li:hover {
+	background: #002e5a;
+}
+.feature_box:hover {
+	background: #002e5a;
+}
+.wpf-demo-gallery .view-caption a:hover {
+	color: #002e5a;
+}
+.wpf-demo-8 .view-caption ul li a {
+	color: #002e5a;
+}
+.social-icons li:hover {
+	background: #002e5a;
+	color: #fff;
+}
+.pop_text > h3 {
+	color: #002e5a
+}
+.testimonials_box > h4 {
+	color: #002e5a;
+}
+.testi_heading > h4 {
+	color: #002e5a;
+}
+.feature_3 .feature_box:hover h3 {
+    color: #002e5a !important;
+}
+.feature_3 .feature_box:hover i {
+    background: #002e5a;
+}
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+    color: #002e5a;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+    color: #002e5a;
+}
+@media (min-width: 1024px) {
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+      color: #002e5a;
+  }
+}
+#header-top_3 .cool-link_3::after {
+    background: #002e5a;
+}
+#header-top_3 .search a i {
+    background: #002e5a;
+}
+
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+	color: #002e5a;
+}
+#header-top_3 .cool-link_3::after {
+    background: #002e5a;
+}
+.ad-pricingplanhead h3{
+  color: #002e5a;
+}

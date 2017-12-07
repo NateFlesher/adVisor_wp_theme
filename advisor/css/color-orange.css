@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+a { color: #fb9902;}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#fb9902;}
+
+.color-default{ color:#fb9902 !important;}
+.btn-link { color: #fb9902;}
+#header .main-nav li a:hover, #header .main-nav li.active a{ border-color:#fb9902}
+#header .search-container .search button{ color:#fb9902;}
+#header .search-container .search input[type="text"]:focus{ border-color:#fb9902;}
+.no-touch .cd-slider-nav a:hover {background-color: #fb9902;}
+.cd-slider-nav .cd-marker {background-color: #fb9902;}
+#footer a:hover{ color:#fb9902;}
+.btn-primary { background-color: #fb9902;}
+.owl-dots .owl-dot.active{background-color: #fb9902;}
+.counter span{ color:#fb9902;}
+.service-box, .service-box.two:hover{ border-color:#fb9902;}
+.service-box.three:after{ background:#fb9902;}
+.service-box i{ color:#fb9902;}
+.toggle .toggle-heading a i{ color:#fb9902; border-color:#fb9902;}
+.meet-advisors-content h3{ color:#fb9902;}
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor{background-color: #fb9902;}
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a{ background-color:#fb9902;}
+.cd-slider-nav li .slide-number{ background-color:#fb9902;}
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number{ color:#fb9902;}
+#header.header-two .header-contact-widget li i{ color:#fb9902;}
+#header.header-two .header-contact-widget li p a:hover{ color:#fb9902;}
+.breadcrumbs li a:hover{ color:#fb9902;}
+.blog-item .blog-content h3 a:hover{ color:#fb9902;}
+.blog-item .blog-meta li a:hover{color:#fb9902;}
+span.post-sticky , .post-sticky i.fa.fa-star{ color: #fb9902;}
+.categories li a:hover{color:#fb9902;}
+.tags li a:hover {color:#fb9902; border-color:#fb9902;}
+.popular-post h4 a:hover {color:#fb9902;}
+.search {background-color: #fb9902;}
+.search .search-icon:hover i {color:#fb9902;}
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link{border-color:#fb9902;}
+.blog-item-classic .blog-content h3 a:hover{ color:#fb9902;}
+.news-paggination li a:hover{ color:#fb9902;}
+.company-history li .year{ color:#fb9902}
+.company-history li .history-content:before{ background-color:#fb9902}
+.team-member h4{ color:#fb9902}
+.list-bullets li:before{ background:#fb9902;}
+.left-nav li a:hover, .left-nav li a.active{ border-color:#fb9902;}
+.help-widget{ background-color:#fb9902;}
+.product-description h3 a:hover{ color:#fb9902;}
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover{ color:#fb9902;}
+.product-thumb label{ background:#fb9902;}
+.ui-slider-horizontal .ui-slider-range{ background:#fb9902;}
+.top-products .top-products-detail i{ color:#fb9902;}
+.top-products .top-products-detail h4 a:hover{ color:#fb9902;}
+.ratings i{ color:#fb9902;}
+.resp-vtabs li.resp-tab-active{color:#fb9902;}
+.resp-tab-active { background:#fb9902;}
+.cart-total .amount{color:#fb9902;}
+.banner-btn.colored{ background:#fb9902;}
+.map-with-address-widget a:hover{ color:#fb9902;}
+blockquote{ border-color:#fb9902;}
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected{ background:#fb9902;}
+.product-detail-slider .rslides_tabs li.rslides_here a{background:#fb9902}
+.review-form-close:hover{ background:#fb9902;}
+.btn.btn-dark:hover{ background:#fb9902;}
+
+.btn-primary:hover  {background-color: #e08904;}
+a:hover, a:focus, .btn-link:hover, .btn-link:focus { color:#e08904;}
+
+#footer .usefull-links-widget li a:hover{ background-image:url(../images/color-scheme/orange/dot-h.png)}
+aside .testimonial-content{ background-image:url(../images/color-scheme/orange/testimonial-pointer2.png)}
+
+.highlighted-sec li:nth-child(1n+1) .text-box{ background:#fb9902;}
+.highlighted-sec li:nth-child(2n+2) .text-box{ background:#fea41a;}
+.highlighted-sec li:nth-child(3n+3) .text-box{ background:#ffac2b;}
+.highlighted-sec li:nth-child(4n+4) .text-box{ background:#fdae36;}
+.highlighted-sec li:nth-child(5n+5) .text-box{ background:#fdb444;}
+.highlighted-sec li:nth-child(6n+6) .text-box{ background:#fcbb57;}
+
+
+.services.highlighted .owl-item:nth-child(3n+1) .service-box{ background:#fb9902;}
+.services.highlighted .owl-item:nth-child(3n+2) .service-box{ background:#ec8f00;}
+.services.highlighted .owl-item:nth-child(3n+3) .service-box{ background:#dc8500;}
+
+
+.cases-item figcaption{ background:rgba(251,153,2,0.80);}
+
+
+#header .top-bar:after, #header .top-bar{ background:#a0917c;}
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after{ background:#948878;}
+#header.header-two .main-nav{ background:#948878;}
+.smallHeader.active #header.header-two{ background:#948878 !important;}
+
+.testimonial-2 .testimonials-author p{color:#fb9902;}
+#header.header-three .main-nav li a:hover, #header.header-three .main-nav li.active > a{color:#fb9902;}
+.doing-the-right-text span{ color:#A0917C;}
+
+.ad-topbar,
+.header-four .ad-btnnav{background: #A0917C; }
+.ad-bannercontent h1 em span,
+#header.header-four .main-nav li.active a,
+#header.header-four .main-nav li > a:hover,
+.header-five .ad-navigation ul li.ad-active > a,
+.header-five .ad-navigation ul li a:hover{color:#fb9902;}
+.header-six .btn-quote{border-color: #fb9902; background: #fb9902;}
+
+
+.color_red{
+  color: #fb9902 !important;
+}
+.bg_red {
+    background: #fb9902 !important;
+}
+.testimonials_box > h4 {
+    color: #fb9902 !important;
+}
+.view-caption li.facebook i, .view-caption li.twitter i, .view-caption li.youtube i{
+  color: #fb9902 !important;
+}
+.header-six .ad-navigationarea ul li i {
+    color: #fb9902;
+    border-color: #fb9902;
+}
+.footer_link > li > a:hover{
+  color: #fb9902;
+}
+.header-six .ad-navigationarea ul li a.tel{
+      color: #fb9902;
+}
+.social-icons_1 li:hover{
+  background: #fb9902;
+}
+
+
+
+
+
+
+
+#header-top .cont_office {
+	background: #fb9902;
+}
+@media (min-width: 1024px) {
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+	color: #fb9902;
+  }
+}
+.advisor-header-seven li ul.dropdown-menu li.active a {
+	color: #fb9902;
+}
+.cool-link::after {
+	background: #fb9902;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.active a {
+	color: #fb9902;
+}
+#services_slider .services_section a:hover {
+  color: #fb9902;
+  border-bottom: 1px solid #fb9902;
+}
+#testimonial-slider_2 .owl-controls .owl-page.active span, .owl-controls.clickable .owl-page:hover span {
+    background: #fb9902;
+}
+.feature_3 .feature_box3:hover i {
+	background: #fb9902;
+}
+footer .widget.widget_rss ul li {
+	border: 1px solid #fff;
+	background: #fb9902;
+}
+.widget select, footer select {
+	background: #ffffff;
+	border: 1px solid #fb9902;
+	color : #000;
+}
+.dark table tr th, footer table tr th {
+	background: #fb9902;
+}
+.light table tr th {
+	background: #fb9902;
+}
+#footer .social-icons_1 li:hover {
+	background: #fb9902;
+}
+.feature_box:hover {
+	background: #fb9902;
+}
+.wpf-demo-gallery .view-caption a:hover {
+	color: #fb9902;
+}
+.wpf-demo-8 .view-caption ul li a {
+	color: #fb9902;
+}
+.social-icons li:hover {
+	background: #fb9902;
+	color: #fff;
+}
+.pop_text > h3 {
+	color: #fb9902
+}
+.testimonials_box > h4 {
+	color: #fb9902;
+}
+.testi_heading > h4 {
+	color: #fb9902;
+}
+.feature_3 .feature_box:hover h3 {
+    color: #fb9902 !important;
+}
+.feature_3 .feature_box:hover i {
+    background: #fb9902;
+}
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+    color: #fb9902;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+    color: #fb9902;
+}
+@media (min-width: 1024px) {
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+      color: #fb9902;
+  }
+}
+#header-top_3 .cool-link_3::after {
+    background: #fb9902;
+}
+#header-top_3 .search a i {
+    background: #fb9902;
+}
+
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown {
+	color: #fb9902;
+}
+#header-top_3 .cool-link_3::after {
+    background: #fb9902;
+}
+.ad-pricingplanhead h3{
+  color: #fb9902;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+.icon-img-1{ background-image:url(../images/color-scheme/light-blue/icon1.png);}
+.icon-img-2{ background-image:url(../images/color-scheme/light-blue/icon2.png);}
+.icon-img-3{ background-image:url(../images/color-scheme/light-blue/icon3.png);}
+.icon-img-4{ background-image:url(../images/color-scheme/light-blue/icon4.png);}
+.icon-img-5{ background-image:url(../images/color-scheme/light-blue/icon5.png);}
+.icon-img-6{ background-image:url(../images/color-scheme/light-blue/icon6.png);}
+.icon-img-7{ background-image:url(../images/color-scheme/light-blue/icon7.png);}
+.icon-img-8{ background-image:url(../images/color-scheme/light-blue/icon8.png);}
+.icon-img-9{ background-image:url(../images/color-scheme/light-blue/icon9.png);}
